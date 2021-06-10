@@ -1,0 +1,11 @@
+create table `store` (
+     `shopId` int unsigned  auto_increment primary key,
+     `shopName` varchar(64),
+     `price`  varchar(64),
+     `current` timestamp,
+     `browse` varchar(64),
+     `del` char(1)
+)
+
+
+商品id自增  每次增加一个数据就+1

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="lx_insert.php" method="post">
+    <table border="1">
+        <tr>
+            <td>课程名称</td>
+            <td><input type="text" name="kcName"></td>
+        </tr>
+        <tr>
+            <td>课程价格</td>
+            <td><input type="text" name="kcPrice"></td>
+        </tr>
+        <tr>
+            <td>是否连载</td>
+            <td>
+                <input type="radio" name="kc" value="是" checked>是
+                <input type="radio" name="kc" value="否">否
+            </td>
+        </tr>
+        <tr>
+            <td>课程讲师</td>
+            <td><input type="text" name="tea"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" value="添加"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

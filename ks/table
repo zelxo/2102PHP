@@ -1,0 +1,6 @@
+create table  student(
+        `stuId` int unsigned  auto_increment primary key,
+        `stuName` varchar(32),
+        `stuAge`  tinyint(16),
+        `stuSite` varchar(128)
+)

@@ -1,0 +1,8 @@
+create table reg (
+    `userId` int unsigned  auto_increment primary key,
+    `userName` varchar(64),
+    `userEmail` varchar(64),
+    `userMobile` char(11),
+    `userEge` tinyint(8),
+    `userPass` varchar(64)
+)

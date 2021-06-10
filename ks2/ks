@@ -1,0 +1,6 @@
+create table ks (
+    `题库id`  int unsigned  auto_increment primary key,
+    `题库名称` varchar(255),
+    `题库添加人` varchar(255),
+    `题库添加时间` timestamp
+)
